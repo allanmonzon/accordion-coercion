@@ -19,6 +19,6 @@ Infinity          Infinity     true       "Infinity "
 []                   0         true       ""
 [12]                12         true       "12"
 ['something']       NaN        true       "something" 
-function(){}        NaN        true       function(){} 
+function(){}        NaN        true       SyntaxError: 
 
 
