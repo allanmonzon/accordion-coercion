@@ -1,0 +1,65 @@
+.accordion {
+	max-width: 550px;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	margin: 50px auto;
+}
+
+
+/*
+.box {
+	height: 50px;
+	background: #2B6B96;
+	border-bottom: 1px solid black;
+}
+
+.header {
+    margin: 0 0 0 10px;
+	color: #E5E5E5;
+	font-weight: normal;
+}
+
+.text {
+	display: none;
+}
+
+.text-show {
+	display: block;
+	-webkit-transition: all .9s ease-out;
+	
+}*/
+
+
+
+.box {
+	height: 70px;
+	overflow: hidden;
+	background: #2B6B96;
+	border-bottom: 1px solid black;
+	-webkit-transition: all 0.7s ease-in;
+}
+
+.box-show {
+	height: 220px;
+	-webkit-transition: all 0.7s ease-in;
+}
+
+.header {
+	color: #E5E5E5;
+	font-weight: normal;
+	margin-left: 10px;
+}
+
+.text {
+	background: #fff;
+	height: 200px;
+	padding: 10px 7px;
+}
+
+
+
+
+
+
+
+
